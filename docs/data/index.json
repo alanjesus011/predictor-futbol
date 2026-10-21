@@ -6,8 +6,65 @@
    "bandera": "🇲🇽",
    "archivo": "liga_mx.json",
    "ok": true,
-   "actualizado": "2026-10-20 23:28"
+   "actualizado": "2026-10-21 00:16"
+  },
+  {
+   "id": "selecciones",
+   "nombre": "Selecciones",
+   "bandera": "🌎",
+   "archivo": "selecciones.json",
+   "ok": true,
+   "actualizado": "2026-10-21 00:16"
+  },
+  {
+   "id": "espana",
+   "nombre": "LaLiga",
+   "bandera": "🇪🇸",
+   "archivo": "espana.json",
+   "ok": true,
+   "actualizado": "2026-10-21 00:16"
+  },
+  {
+   "id": "inglaterra",
+   "nombre": "Premier League",
+   "bandera": "🏴",
+   "archivo": "inglaterra.json",
+   "ok": true,
+   "actualizado": "2026-10-21 00:16"
+  },
+  {
+   "id": "italia",
+   "nombre": "Serie A",
+   "bandera": "🇮🇹",
+   "archivo": "italia.json",
+   "ok": true,
+   "actualizado": "2026-10-21 00:17"
+  },
+  {
+   "id": "portugal",
+   "nombre": "Primeira Liga",
+   "bandera": "🇵🇹",
+   "archivo": "portugal.json",
+   "ok": true,
+   "actualizado": "2026-10-21 00:17"
+  },
+  {
+   "id": "paises_bajos",
+   "nombre": "Eredivisie",
+   "bandera": "🇳🇱",
+   "archivo": "paises_bajos.json",
+   "ok": true,
+   "actualizado": "2026-10-21 00:17"
+  },
+  {
+   "id": "champions",
+   "nombre": "Champions",
+   "bandera": "⭐",
+   "archivo": "champions.json",
+   "ok": false,
+   "error": "HTTP Error 502: Bad Gateway",
+   "actualizado": null
   }
  ],
- "actualizado": "2026-10-20 23:28"
+ "actualizado": "2026-10-21 00:17"
 }
