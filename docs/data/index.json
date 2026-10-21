@@ -6,7 +6,7 @@
    "bandera": "🇲🇽",
    "archivo": "liga_mx.json",
    "ok": true,
-   "actualizado": "2026-10-21 00:16"
+   "actualizado": "2026-10-21 00:36"
   },
   {
    "id": "selecciones",
@@ -14,7 +14,7 @@
    "bandera": "🌎",
    "archivo": "selecciones.json",
    "ok": true,
-   "actualizado": "2026-10-21 00:16"
+   "actualizado": "2026-10-21 00:36"
   },
   {
    "id": "espana",
@@ -22,7 +22,7 @@
    "bandera": "🇪🇸",
    "archivo": "espana.json",
    "ok": true,
-   "actualizado": "2026-10-21 00:16"
+   "actualizado": "2026-10-21 00:36"
   },
   {
    "id": "inglaterra",
@@ -30,7 +30,7 @@
    "bandera": "🏴",
    "archivo": "inglaterra.json",
    "ok": true,
-   "actualizado": "2026-10-21 00:16"
+   "actualizado": "2026-10-21 00:36"
   },
   {
    "id": "italia",
@@ -38,7 +38,7 @@
    "bandera": "🇮🇹",
    "archivo": "italia.json",
    "ok": true,
-   "actualizado": "2026-10-21 00:17"
+   "actualizado": "2026-10-21 00:37"
   },
   {
    "id": "portugal",
@@ -46,7 +46,7 @@
    "bandera": "🇵🇹",
    "archivo": "portugal.json",
    "ok": true,
-   "actualizado": "2026-10-21 00:17"
+   "actualizado": "2026-10-21 00:37"
   },
   {
    "id": "paises_bajos",
@@ -54,7 +54,7 @@
    "bandera": "🇳🇱",
    "archivo": "paises_bajos.json",
    "ok": true,
-   "actualizado": "2026-10-21 00:17"
+   "actualizado": "2026-10-21 00:37"
   },
   {
    "id": "champions",
@@ -62,9 +62,9 @@
    "bandera": "⭐",
    "archivo": "champions.json",
    "ok": false,
-   "error": "HTTP Error 502: Bad Gateway",
+   "error": "ClubElo no respondió: <urlopen error timed out>",
    "actualizado": null
   }
  ],
- "actualizado": "2026-10-21 00:17"
+ "actualizado": "2026-10-21 00:56"
 }
