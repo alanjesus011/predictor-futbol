@@ -407,8 +407,26 @@ def calibrar_elo(conjuntos):
 
 def procesar_champions(conjuntos):
     c0, h, c1, rho = calibrar_elo(conjuntos)
-    fecha = HOY.strftime("%Y-%m-%d")
-    raw = leer_csv(f"http://api.clubelo.com/{fecha}")
+    raw, ultimo_error = None, None
+    for dias_atras in range(4):                       # si hoy falla, prueba con días anteriores
+        fecha = (HOY - pd.Timedelta(days=dias_atras)).strftime("%Y-%m-%d")
+        for url in (f"http://api.clubelo.com/{fecha}", f"https://api.clubelo.com/{fecha}"):
+            for intento in range(3):                  # el servidor de ClubElo a veces responde 502
+                try:
+                    raw = leer_csv(url)
+                    if len(raw) > 50:
+                        break
+                except Exception as e:
+                    ultimo_error = e
+                    if not os.environ.get("PRUEBA_DIR"):
+                        time.sleep(15)
+            if raw is not None and len(raw) > 50:
+                break
+        if raw is not None and len(raw) > 50:
+            break
+    if raw is None or len(raw) <= 50:
+        raise RuntimeError(f"ClubElo no respondió: {ultimo_error}")
+    print(f"   ClubElo: ratings del {fecha}")
     club, pais, elo = col(raw, "Club", "club", "Team"), col(raw, "Country", "country"), col(raw, "Elo", "elo")
     raw = raw.dropna(subset=[club, elo]).sort_values(elo, ascending=False).head(250)
     equipos = {str(r[club]).strip(): {"elo": round(float(r[elo]), 1), "pais": str(r[pais]).strip()} for _, r in raw.iterrows()}
