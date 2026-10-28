@@ -6,7 +6,7 @@
    "bandera": "🇲🇽",
    "archivo": "liga_mx.json",
    "ok": true,
-   "actualizado": "2026-10-27 07:02"
+   "actualizado": "2026-10-28 07:11"
   },
   {
    "id": "selecciones",
@@ -14,7 +14,7 @@
    "bandera": "🌎",
    "archivo": "selecciones.json",
    "ok": true,
-   "actualizado": "2026-10-27 07:02"
+   "actualizado": "2026-10-28 07:11"
   },
   {
    "id": "espana",
@@ -22,7 +22,7 @@
    "bandera": "🇪🇸",
    "archivo": "espana.json",
    "ok": true,
-   "actualizado": "2026-10-27 07:02"
+   "actualizado": "2026-10-28 07:11"
   },
   {
    "id": "inglaterra",
@@ -30,7 +30,7 @@
    "bandera": "🏴",
    "archivo": "inglaterra.json",
    "ok": true,
-   "actualizado": "2026-10-27 07:02"
+   "actualizado": "2026-10-28 07:11"
   },
   {
    "id": "italia",
@@ -38,7 +38,7 @@
    "bandera": "🇮🇹",
    "archivo": "italia.json",
    "ok": true,
-   "actualizado": "2026-10-27 07:02"
+   "actualizado": "2026-10-28 07:12"
   },
   {
    "id": "portugal",
@@ -46,7 +46,7 @@
    "bandera": "🇵🇹",
    "archivo": "portugal.json",
    "ok": true,
-   "actualizado": "2026-10-27 07:03"
+   "actualizado": "2026-10-28 07:12"
   },
   {
    "id": "paises_bajos",
@@ -54,7 +54,7 @@
    "bandera": "🇳🇱",
    "archivo": "paises_bajos.json",
    "ok": true,
-   "actualizado": "2026-10-27 07:03"
+   "actualizado": "2026-10-28 07:12"
   },
   {
    "id": "champions",
@@ -66,5 +66,5 @@
    "actualizado": null
   }
  ],
- "actualizado": "2026-10-27 07:21"
+ "actualizado": "2026-10-28 07:30"
 }
